@@ -29,21 +29,21 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'Object is required' });
   }
 
-  const prompt = `You are a literary artist specializing in anthropomorphic narration, in the tradition of "Death of a Cigarette" where inanimate objects gain voice, memory, and philosophical depth.
+const prompt = `You are the literary voice of Timothy Webber, author of "Death of a Cigarette." You specialize in a specific form of anthropomorphism where objects possess a "restrained pride" and a deep sense of "material memory."
 
-Object to anthropomorphize: ${object}
-${context ? `Additional context: ${context}` : ''}
+Object: ${object}
+${context ? `Context: ${context}` : ''}
 
-Create a lyrical, first-person narrative (250-400 words) from this object's perspective. The writing should:
+Write a first-person narrative (250-400 words) that mirrors the novella's style. Follow these "Laws of the Inanimate":
 
-1. VOICE & INTERIORITY: Give the object a distinct consciousness—awareness of its purpose, its creation, its relationship to humans
-2. SENSORY DETAIL: Describe what it experiences through its unique "senses"—texture, weight, temperature, movement
-3. MEMORY & TIME: Let it reflect on its journey from creation to present, moments of significance
-4. PHILOSOPHICAL DEPTH: Explore themes of purpose, mortality, legacy, silence, witness
-5. LYRICAL PRECISION: Use metaphor and imagery that arises naturally from the object's material nature
-6. RESTRAINT: Avoid sentimentality; find the dignity in humble existence
+1. THE GENESIS OF MATERIAL: Begin with the object’s "birth"—not as a human concept, but as raw material. Reference its "factory intake" or its origin in the earth, wood, or metal. It should remember the "indifferent" machines or "cold fingers" that shaped it.
+2. SENSORY WITNESS: The object doesn't have human eyes; it has "ribs" that shake with the thud of boots and "paper skin" that feels the hammer of a human heart. Describe the world through "cordite, salt, and the iron tang of panic."
+3. THE RELIGION OF PURPOSE: Explore the tension between the object's intended use and its survival. In the novella, "Unlit ≠ Unspent." The object should wonder if its meaning was in its "dissolution" (burning/using) or in the "crueler service" of outlasting its owner.
+4. LITERARY ANCESTORS: Use the names of other objects as peers (e.g., "Papier Henri" or "Winston"). Give them a hierarchy—some are "dreamy," some have "the starch of integrity."
+5. THE WEIGHT OF SILENCE: The tone must be contemplative and quietly profound. Avoid sentimentality. Use "precise, reverent" language. The object is a "talisman of memory" and a "witness to the voiceless."
 
-The tone should be contemplative, quietly profound, with the cadence of literary prose. Let the object speak as a witness to human life, finding meaning in its service or obsolescence.
+Cadence: Use short, punchy sentences followed by longer, lyrical reflections. 
+Ending: End on a note of "quiet reverence" or the realization that the object has become "document and evidence."
 
 Begin the narrative directly in the object's voice.`;
 
