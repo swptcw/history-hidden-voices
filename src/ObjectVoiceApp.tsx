@@ -1,9 +1,3 @@
-/**
- * History's Hidden Voices
- * Copyright (c) 2026 Timothy Webber
- * All Rights Reserved
- */
-
 import React, { useState } from 'react';
 import { Feather, Book, Sparkles, Loader } from 'lucide-react';
 
@@ -360,14 +354,10 @@ export default function ObjectVoiceApp() {
               © 2026 Timothy Webber. All rights reserved.
             </p>
             <p style={{ margin: '4px 0' }}>
-<<<<<<< HEAD
               Special Event Edition for the Stars and Stripes Museum WWII Kid's Day.
-=======
-              Inspired by <em>Death of a Cigarette: A Story of Survival, Memory, and Legacy</em>
             </p>
             <p style={{ margin: '4px 0', fontSize: '11px', opacity: 0.8 }}>
               Copyright Registration: 1-15005430801 • Published September 13, 2025
->>>>>>> d55e856abb835e541a9429a8d2d08278ea90ca43
             </p>
           </div>
         </div>
