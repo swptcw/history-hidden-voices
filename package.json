@@ -1,0 +1,27 @@
+{
+  "name": "historys-hidden-voices",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "author": "Timothy Webber",
+  "license": "PROPRIETARY",
+  "description": "Every Object Has a Story. The artifacts around you aren't just things, they are witnesses to history. Inspired by 'Death of a Cigarette: A Story of Survival, Memory, and Legacy'",
+  "copyright": "Copyright (c) 2025 Timothy Webber. All rights reserved. Copyright Registration: 1-15005430801",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0"
+  }
+}

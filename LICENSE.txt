@@ -1,0 +1,32 @@
+Voice of the Voiceless
+Copyright (c) 2025 Timothy Webber
+
+PROPRIETARY LICENSE
+
+All rights reserved.
+
+This software, including but not limited to its source code, user interface design, 
+prompt engineering methodology, and associated documentation, is the proprietary 
+and confidential property of Timothy Webber.
+
+This software is inspired by and thematically connected to "Death of a Cigarette," 
+a novel by Timothy Webber, copyright 2025.
+
+NO PERMISSION is granted to any person obtaining a copy of this software to:
+
+- Use the software or its methodologies for commercial purposes
+- Copy, modify, merge, publish, distribute, sublicense, or sell copies of the software
+- Reverse engineer or attempt to derive the prompt engineering methodology
+- Create derivative works based on this software
+- Use the concept, design, or implementation for competing products
+
+The software is provided "AS IS", without warranty of any kind, express or implied, 
+including but not limited to the warranties of merchantability, fitness for a 
+particular purpose, and noninfringement.
+
+For licensing inquiries, permissions, or questions, contact:
+Timothy Webber
+tim@swptcw.com
+
+This license is effective as of the date of first publication and continues in 
+perpetuity unless explicitly revoked or modified by Timothy Webber in writing.
