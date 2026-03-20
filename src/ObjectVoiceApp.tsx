@@ -1,3 +1,9 @@
+/**
+ * History's Hidden Voices
+ * Copyright (c) 2026 Timothy Webber
+ * All Rights Reserved
+ */
+
 import React, { useState } from 'react';
 import { Feather, Book, Sparkles, Loader } from 'lucide-react';
 
