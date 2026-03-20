@@ -56,7 +56,7 @@ Begin the narrative directly in the object's voice.`;
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
-        model: 'claude-3-5-sonnet-20240620', // Note: Updated to a currently available model string
+        model: 'claude-sonnet-4-5-20250929',
         max_tokens: 2000,
         messages: [
           { role: 'user', content: prompt }
